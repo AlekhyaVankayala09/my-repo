@@ -16,3 +16,14 @@ elif num < 0:
     print("The number is negative.")
 else:
     print("The number is zero.")
+
+
+
+# Print numbers from 1 to 5
+for i in range(1, 6):
+    print(i)
+
+# Iterate through a list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
