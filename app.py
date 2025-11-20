@@ -6,3 +6,13 @@ print(f"Multiplication: {x * y}")
 print(f"Division: {x / y}")
 print(f"Floor Division: {x // y}") # Rounds down to the nearest whole number
 print(f"Modulo (Remainder): {x % y}")
+
+
+
+num = int(input("Enter a number: "))
+if num > 0:
+    print("The number is positive.")
+elif num < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
